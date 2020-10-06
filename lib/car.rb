@@ -1,3 +1,7 @@
 require_relative "./vehicle.rb"
 
-def
+class Car < Vehicle 
+  def go
+    "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+  end
+end
